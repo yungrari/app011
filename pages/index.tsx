@@ -30,6 +30,8 @@ export default function Home() {
           <iframe
             width="100%"
             height="300"
+            scrolling="no"
+            frameBorder="no"
             allow="autoplay"
             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1408390762&color=%23ff5500&auto_play=true&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
             style={{ marginBottom: 8 }}
@@ -51,7 +53,7 @@ export default function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              Freedom mix for Krakow&apos;s &quot;Prawda bar&quot;
+              Freedom mix for Krakow&apos;s &quot;Prawda bar&quot; 26.01.2023
             </a>
           </div>
         </div>
