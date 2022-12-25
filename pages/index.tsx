@@ -30,8 +30,6 @@ export default function Home() {
           <iframe
             width="100%"
             height="300"
-            scrolling="no"
-            frameBorder="no"
             allow="autoplay"
             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1408390762&color=%23ff5500&auto_play=true&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
             style={{ marginBottom: 8 }}
@@ -42,7 +40,7 @@ export default function Home() {
               href="https://soundcloud.com/yungr4r1"
               title="yungrari"
               target="_blank"
-              rel="noreferrer"
+              rel="noreferrer noopener"
             >
               yungrari
             </a>{' '}
@@ -51,7 +49,7 @@ export default function Home() {
               href="https://soundcloud.com/yungr4r1/supportukraine"
               title="Freedom mix"
               target="_blank"
-              rel="noreferrer"
+              rel="noreferrer noopener"
             >
               Freedom mix for Krakow&apos;s &quot;Prawda bar&quot; 26.01.2023
             </a>
@@ -66,6 +64,17 @@ export default function Home() {
           <p>
             <code>#StandWithUkraine</code>
           </p>
+
+          <a
+            href="https://savelife.in.ua/en/donate-en/"
+            title="Come Back Alive"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <p className={inter.className}>
+              Make a donation to our charity fund – Come Back Alive
+            </p>
+          </a>
 
           <div>
             <Image

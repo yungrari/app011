@@ -15,7 +15,8 @@
   font-family: var(--font-mono);
 }
 
-.code p:last-of-type {
+.code p:last-of-type,
+.code a:last-of-type {
   margin-bottom: 8px;
 }
 
