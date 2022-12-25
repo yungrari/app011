@@ -17,7 +17,13 @@ export default function Home() {
 
       <main className={styles.main}>
         <div style={{ marginBottom: 48 }}>
-          <Image src="/tryzub.webp" alt="tryzub" width={200} height={200} />
+          <Image
+            src="/tryzub.webp"
+            alt="tryzub"
+            width={200}
+            height={200}
+            priority
+          />
         </div>
 
         <div style={{ alignSelf: 'stretch', marginBottom: 48 }}>
